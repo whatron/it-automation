@@ -1,4 +1,5 @@
 # Google IT Automation with Python Repository
+Compilation of scripts written for the capstone projects
 
 ## Directory:
 1. Scale and convert images using PIL (mod-1)
