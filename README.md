@@ -1,2 +1,18 @@
 # it-automation
 Google IT Automation with Python Repository
+
+Directory:
+1.Scale and convert images using PIL
+2.
+3.
+4.
+5.
+
+## 1. Scale and convert images using PIL
+Use the Python Imaging Library to do the following to a batch of images:
+
+Open an image
+Rotate an image
+Resize an image
+Save an image in a specific format in a separate directory 
+
