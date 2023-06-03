@@ -8,8 +8,7 @@ Compilation of scripts written for the capstone projects
 1. Scale and convert images using PIL (mod-1)
 2. Process Text Files with Python Dictionaries and Upload to Running Web Service (mod-2)
 3. Automatically Generate a PDF and send it by Email (mod-3)
-4. 
-5. 
+4. Automate updating catalog information
 \
 &nbsp;
 
@@ -34,4 +33,10 @@ Use the Python Imaging Library to do the following to a batch of images:
 - Write a script that summarizes and processes sales data into different categories
 - Generate a PDF using Python
 - Automatically send a PDF by email
+
+## 4. Automate updating catalog information
+- Write a script that summarizes and processes sales data into different categories
+- Generate a PDF using Python
+- Automatically send a PDF by email
+- Write a script to check the health status of the system
 
