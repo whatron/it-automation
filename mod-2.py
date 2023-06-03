@@ -7,7 +7,7 @@ path = "/data/feedback"
 files = os.listdir(path)
 reviews = []
 
-for file_path in files:
+for file_path in files: # iterates through files to store data in a list of dictionaries
   with open(path + '/' + file_path) as file:
     title = file.readline().strip()
     name = file.readline().strip()
@@ -17,6 +17,6 @@ for file_path in files:
     review = {'title': title, 'name': name, 'date': date, 'feedback': feedback} 
     reviews.append(review)
 
-for r in reviews:
-  response = requests.post("http://34.30.245.53/feedback/", json=r)
+for r in reviews: # post each list entry
+  response = requests.post("http://<address>/feedback/", json=r) # posts to address
   response.raise_for_status()
