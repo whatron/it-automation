@@ -112,7 +112,7 @@ def main(argv):
   # TODO: turn this into a PDF report
   reports.generate("/tmp/cars.pdf", "Sales summary for last month", "<br/>".join(summary), cars_dict_to_table(data))
   # TODO: send the PDF report as an email attachment
-  message = emails.generate("automation@example.com", "student-00-418801f56679@example.com", "Sales summary for last month", "\n".join(summary), "/tmp/cars.pdf")
+  message = emails.generate("automation@example.com", "<sender@email.com>", "Sales summary for last month", "\n".join(summary), "/tmp/cars.pdf")
   emails.send(message)
 
 if __name__ == "__main__":
